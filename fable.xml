@@ -1,6 +1,176 @@
 <fable>
-	<page>
-  
+	<page
+    
+    background="fundo2.png"
+    soundtrack="somvento.wav" >
+    
+    <agent text="O fantasma está com sono. Guie-o até sua nuvem seguindo as velas" font-size="22" color="papayawhip" x="100" y="350" width="300" height="100"/>
+    
+		<agent img="chao1.jpg" x="0" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="100" y="0" width="100" height="100" />
+    <agent img="chao1.jpg" x="200" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="300" y="0" width="100" height="100" />
+    <agent img="chao1.jpg" x="400" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="500" y="0" width="100" height="100" />
+    
+    <agent img="vela1.png" x="400" y="100" width="40" height="70" on-touch="_NEXT_PAGE" />
+    
+    <agent img="fantasma.png" x="100" y="100" width="150" height="150" draggable="true" />
     
   </page>
+  
+  <page
+    
+    background="fundo2.png"
+    soundtrack="somvento.wav" >
+    
+    <agent text="Fantasmas fazem muitas escolhas importantes" font-size="22" color="papayawhip" x="150" y="350" width="250" height="100" />
+    
+		<agent img="chao1.jpg" x="0" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="100" y="0" width="100" height="100" />
+    <agent img="chao1.jpg" x="200" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="300" y="0" width="100" height="100" />
+    <agent img="chao1.jpg" x="400" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="500" y="0" width="100" height="100" />
+    
+    <agent img="chao2.jpg" x="100" y="100" width="50" height="50" />
+    <agent img="chao1.jpg" x="150" y="100" width="50" height="50" />
+    <agent img="chao2.jpg" x="200" y="100" width="50" height="50" />
+    <agent img="chao1.jpg" x="250" y="100" width="50" height="50" />
+    <agent img="chao2.jpg" x="300" y="100" width="50" height="50" />
+    <agent img="chao1.jpg" x="350" y="100" width="50" height="50" />
+    
+    <agent img="chao1.jpg" x="150" y="150" width="50" height="50" />
+    <agent img="chao2.jpg" x="200" y="150" width="50" height="50" />
+    <agent img="chao1.jpg" x="250" y="150" width="50" height="50" />
+    <agent img="chao2.jpg" x="300" y="150" width="50" height="50" />
+    
+    <agent img="vela1.png" x="230" y="200" width="40" height="70" on-touch="_NEXT_PAGE"/>
+    
+    <agent img="vela1.png" x="400" y="100" width="40" height="70" on-touch="_GOTO_PAGE:5" />
+    <agent img="vela1.png" x="60" y="100" width="40" height="70" on-touch="_PREV_PAGE" />
+    
+    <agent img="fantasma.png" x="90" y="100" width="150" height="150" draggable="true" />
+    
+  </page>
+  
+  <page
+    
+    background="fundo2.png"
+    soundtrack="somvento.wav" >
+    
+    <agent text="O caminho até em casa é cheio de ensinamentos" font-size="22" color="papayawhip" x="150" y="350" width="250" height="100" on-trigger="fala" >
+      
+      <fala text="Fantasmas também erram o caminho" x="100" width="350" />
+    </agent>
+    
+		<agent img="chao1.jpg" x="0" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="100" y="0" width="100" height="100" />
+    <agent img="chao1.jpg" x="200" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="300" y="0" width="100" height="100" />
+    <agent img="chao1.jpg" x="400" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="500" y="0" width="100" height="100" />
+    
+    <agent img="chao2.jpg" x="100" y="100" width="50" height="50" />
+    <agent img="chao1.jpg" x="150" y="100" width="50" height="50" />
+    <agent img="chao2.jpg" x="200" y="100" width="50" height="50" />
+    <agent img="chao1.jpg" x="250" y="100" width="50" height="50" />
+    <agent img="chao2.jpg" x="300" y="100" width="50" height="50" />
+    <agent img="chao1.jpg" x="350" y="100" width="50" height="50" />
+    
+    <agent img="chao1.jpg" x="150" y="150" width="50" height="50" />
+    <agent img="chao2.jpg" x="200" y="150" width="50" height="50" />
+    <agent img="chao1.jpg" x="250" y="150" width="50" height="50" />
+    <agent img="chao2.jpg" x="300" y="150" width="50" height="50" />
+    
+    <agent img="mesa.png" x="200" y="190" width="100" height="100" on-touch="fala"/>
+    
+    <agent img="vela1.png" x="400" y="100" width="40" height="70" on-touch="_NEXT_PAGE" />
+    <agent img="vela1.png" x="60" y="100" width="40" height="70" on-touch="_PREV_PAGE" />
+    
+    <agent img="fantasma.png" x="100" y="90" width="150" height="150" draggable="true" />
+    
+  </page>
+  
+    <page
+    
+    background="fundo2.png"
+    soundtrack="somvento.wav" >
+    
+    <agent text="O fantasma está perdido?" font-size="22" color="papayawhip" x="150" y="350" width="250" height="100" />
+    
+    <agent img="chao1.jpg" x="0" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="100" y="0" width="100" height="100" />
+    <agent img="chao1.jpg" x="200" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="300" y="0" width="100" height="100" />
+    <agent img="chao1.jpg" x="400" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="500" y="0" width="100" height="100" />
+    
+    <agent img="vela1.png" x="60" y="100" width="40" height="70" on-touch="_PREV_PAGE" />
+    
+    <agent img="fantasma.png" x="110" y="100" width="150" height="150" draggable="True" />
+    
+    </page>
+  
+  <page
+    
+    background="fundo2.png"
+    soundtrack="somvento.wav" >
+      
+    <agent text="Um último desafio precisa ser enfrentado" font-size="22" color="papayawhip" x="150" y="350" width="250" height="100" />
+    
+		<agent img="chao1.jpg" x="0" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="100" y="0" width="100" height="100" />
+    <agent img="chao1.jpg" x="200" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="300" y="0" width="100" height="100" />
+    <agent img="chao1.jpg" x="400" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="500" y="0" width="100" height="100" />
+    
+		<agent img="chao2.jpg" x="100" y="100" width="50" height="50" />
+    <agent img="chao1.jpg" x="150" y="100" width="50" height="50" />
+    <agent img="chao2.jpg" x="200" y="100" width="50" height="50" />
+    <agent img="chao1.jpg" x="250" y="100" width="50" height="50" />
+    <agent img="chao2.jpg" x="300" y="100" width="50" height="50" />
+    <agent img="chao1.jpg" x="350" y="100" width="50" height="50" />
+    
+    <agent img="chao1.jpg" x="150" y="150" width="50" height="50" />
+    <agent img="chao2.jpg" x="200" y="150" width="50" height="50" />
+    <agent img="chao1.jpg" x="250" y="150" width="50" height="50" />
+    <agent img="chao2.jpg" x="300" y="150" width="50" height="50" />
+    
+    <agent img="vela1.png" x="60" y="100" width="40" height="70" on-touch="_GOTO_PAGE:2" />
+    <agent img="vela2.png" x="400" y="100" width="40" height="70" drop-zone=on-zone on-trigger="acende" >
+      <acende img="vela1.png" on-touch="_NEXT_PAGE"  />
+    </agent>
+    
+    <agent img="fogo.png" x="160" y="160" width="150" height="150" draggable="true" on-zone="acende" on-drop=on-zone/>
+      
+    <agent img="fantasma.png" x="100" y="110" width="150" height="150" draggable="true" />
+      
+  </page>
+  
+  <page
+    
+    background="fundo2.png"
+    soundtrack="somvento.wav" >
+    
+    <agent text="O fantasma está muito cansado, ajude-o até a nuvem" font-size="22" color="papayawhip" x="150" y="350" width="250" height="100" on-trigger="dormir">
+      <dormir text="O fantasma teve uma boa noite de sono. FIM" />
+    </agent>
+    
+    <agent img="chao1.jpg" x="0" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="100" y="0" width="100" height="100" />
+    <agent img="chao1.jpg" x="200" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="300" y="0" width="100" height="100" />
+    <agent img="chao1.jpg" x="400" y="0" width="100" height="100" />
+    <agent img="chao2.jpg" x="500" y="0" width="100" height="100" />
+    
+    <agent img="vela1.png" x="60" y="100" width="40" height="70" on-touch="_PREV_PAGE" />
+    
+    <agent img="nuvem.png" x="150" y="250" width="200" height="150" drop-zone=on-zone />
+    
+    <agent img="fantasma.png" x="100" y="100" width="150" height="150" draggable="True" on-zone="dormir" on-drop=drop-zone />
+    
+    </page>
+  
 </fable>
