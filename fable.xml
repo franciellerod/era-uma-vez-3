@@ -92,12 +92,14 @@
     
   </page>
   
-    <page
+  <page
     
     background="fundo2.png"
     soundtrack="somvento.wav" >
     
     <agent text="O fantasma está perdido?" font-size="22" color="papayawhip" x="150" y="350" width="250" height="100" />
+    
+    <agent video="fantasma.mp4" x="100" y="150" width="300" height="300" />
     
     <agent img="chao1.jpg" x="0" y="0" width="100" height="100" />
     <agent img="chao2.jpg" x="100" y="0" width="100" height="100" />
