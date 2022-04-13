@@ -1,4 +1,4 @@
-# era-uma-vez-3
+# era uma vez v3
 
 Versão final de um trabalho para a matéria de Algoritmos I.
 
